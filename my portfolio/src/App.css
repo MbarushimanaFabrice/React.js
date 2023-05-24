@@ -1,0 +1,442 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+
+ html body {
+ 	overflow-x: hidden;
+ }
+
+ ::-webkit-scrollbar {
+ 	width: 15px;
+ }
+
+ ::-webkit-scrollbar-thumb {
+ 	background: rgb(85, 100, 70);
+ 	border-radius: 32px;
+ }
+
+ .container {
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100vh;
+ 	background: #D9D9D9;
+ }
+
+ .sidebar {
+ 	width: 403px;
+ 	height: 100vh;
+ 	background: rgba(61, 3, 70, 0.484);
+ 	position: fixed;
+ }
+
+ .image_cover {
+ 	text-align: center;
+ 	align-items: center;
+ 	background-color: #7b7bda;
+ 	border-radius: 332px 344px;
+ 	width: 218px;
+ 	margin: 0px 24%;
+ }
+
+ .image_cover img {
+ 	width: 48%;
+ 	height: 219px;
+ }
+
+ nav {
+ 	text-align: center;
+ 	margin: 21px;
+ 	padding: 32px;
+
+ }
+
+ li {
+ 	margin: 38px;
+ 	list-style: none;
+ }
+
+ a {
+ 	text-decoration: none;
+ 	list-style: none;
+ 	color: #fffefe;
+ 	font-size: 20px;
+ 	font-weight: 100;
+ }
+
+ a:hover {
+ 	color: #bcbcf3;
+ 	text-decoration: underline;
+ 	font-size: 20.5px;
+ 	font-weight: 500;
+ 	transition: 0.8s;
+
+ }
+
+ span {
+ 	color: #FEF977;
+ }
+
+ .me h1 {
+ 	font-family: 'Inter';
+ 	font-weight: 600;
+ 	background: radial-gradient(67.18% 475.18% at 50% 50%, #59a4ff 9.62%, #21fc28 82.22%);
+ 	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+ 	background-clip: text;
+ 	padding: 182px 122px;
+ 	font-size: 47px;
+ }
+
+
+
+ .me h2 {
+ 	font-family: 'Inter';
+ 	font-style: normal;
+ 	font-weight: 400;
+ 	font-size: 47px;
+ 	line-height: 93px;
+ 	display: flex;
+ 	background: radial-gradient(67.18% 475.18% at 50% 50%, #b11189 9.62%, #0398badb 82.22%);
+ 	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+ 	background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+ 	margin: -110px 120px;
+
+
+ }
+
+ myname {
+ 	font-size: 30px !important;
+ 	background: radial-gradient(67.18% 475.18% at 50% 50%, #e066b5 9.62%, #07ca52ea 82.22%) !important;
+ 	-webkit-background-clip: text !important;
+ 	-webkit-text-fill-color: transparent !important;
+ 	background-clip: text !important;
+ 	-webkit-text-fill-color: transparent !important;
+
+ }
+
+ .middle {
+	width: 76.9%;
+ 	background-color: #D9D9D9;
+	margin: 0px 403px;
+	height: 100vh;
+	top: 0;
+
+	 
+ }
+
+ nen {
+ 	margin: 159px;
+ 	background: radial-gradient(67.18% 475.18% at 50% 50%, #1e053feb 9.62%, #666602 82.22%);
+ 	background-clip: text;
+ }
+
+ .icon {
+ 	text-align: center;
+ 	margin: 390px 0px;
+ 	font-size: 55px;
+ 	color: #3232fd;
+ 	cursor: pointer;
+ 	transition: 0.6s ease-in;
+ 	cursor: pointer;
+ }
+
+ .icon:hover {
+ 	color: #5500d3d2;
+ 	font-size: 63px;
+ 	transition: 0.5s ease-in-out;
+ }
+
+ /* MY SKILLS */
+
+ skill {
+ 	font-size: 38px !important;
+ 	background: radial-gradient(67.18% 475.18% at 50% 50%, #b11189 9.62%, #0398badb 82.22%);
+ 	-webkit-background-clip: text !important;
+ 	-webkit-text-fill-color: transparent !important;
+ 	background-clip: text !important;
+ 	-webkit-text-fill-color: transparent !important;
+
+ }
+
+ .skills h2 {
+ 	text-align: center;
+ 	margin: 5px 60px;
+ }
+
+
+ .myskills {
+ 	width: 341px;
+ 	height: auto;
+ 	background: #f5faeec3;
+ 	border: solid 0.4px #e792db;
+ 	border-radius: 7px;
+ 	box-shadow: 2px 3px 4px #ffa6007f;
+ 	display: inline-block;
+ 	margin: -17px 11px;
+	
+ }
+
+ .myskills h2 {
+ 	text-align: center;
+ }
+
+ .icons {
+ 	font-size: 23px;
+ 	color: #8c00ff;
+ 	cursor: no-drop;
+ 	margin: -7.7px 40px;
+
+ }
+
+ .downicon {
+ 	text-align: center;
+ 	margin: -15px 510px;
+ 	font-size: 55px;
+ 	color: #3232fd;
+ 	cursor: pointer;
+ 	transition: 0.6s ease-in;
+ 	cursor: pointer;
+
+ }
+
+ .downicon2 {
+ 	position: absolute;
+ 	margin: 370px 510px;
+
+ }
+
+ .new_icon {
+ 	margin: -7.7px 10px !important;
+
+
+ }
+
+ .newskill {
+ 	width: 398px;
+
+ }
+
+ /* MY CERTIFICATE */
+ .header h2 {
+ 	text-align: center;
+ 	margin: 35px;
+ }
+
+ .certficate {
+ 	margin: -17px 100px;
+ }
+
+ .mycert {
+ 	width: 395px;
+ 	height: auto;
+ 	text-align: center;
+ 	justify-content: center;
+ 	margin: 0px 21px;
+ 	font-weight: bold;
+ 	border: solid 0.3px #c0b6c1;
+ 	box-shadow: 2px 3px 2px rgba(181, 87, 243, 0.449);
+ 	display: inline-block;
+ 	justify-items: center;
+ 	align-items: center;
+
+
+ }
+
+ .mycert p {
+ 	text-align: center;
+ 	padding: 11px;
+ }
+
+ .mycert img {
+ 	width: 95%;
+ 	margin: 10px 0px;
+ }
+
+ /* image hover transitions */
+ .mycert img {
+ 	transition: 0.8s;
+ }
+
+ .mycert:hover img {
+ 	transform: scale(1.05);
+ 	transition: ease-in;
+ 	transition: 0.8s;
+ }
+
+ .next {
+ 	color: rgb(59, 59, 227);
+ 	font-size: 41px;
+ 	margin: -2px 14px;
+ 	position: absolute;
+ 	font-weight: bold;
+ 	cursor: pointer;
+ 	transition: 0.5s;
+ }
+
+ .next:hover {
+ 	color: rgb(0, 0, 255);
+ 	font-size: 45px;
+ }
+
+ .back {
+ 	margin: 162px -914px;
+
+ }
+
+ /* project */
+ .proj {
+ 	width: 35%;
+ 	height: 313px;
+ 	box-shadow: 0px 1px 1px 1px #30303039;
+ 	text-align: center;
+ 	display: inline-block;
+ 	margin: 12px 56px;
+ }
+
+ .proj img {
+ 	width: 95.6%;
+ 	height: auto;
+ 	margin: 6px;
+ }
+
+ .proj p {
+ 	font-size: 21px;
+ 	font-weight: 600;
+ 	cursor: progress;
+ }
+
+ .proj:hover {
+ 	transform: translateY(-10px);
+ 	transition: transform 0.6s ease;
+ 	box-shadow: 0 8px 16px 0 #1d1c1d36;
+ }
+
+ .proj img:hover {
+ 	transform: scale(1.02);
+ 	transition: 0.5s ease-in;
+ }
+
+ pj {
+ 	color: #212cff;
+ 	font-weight: 100 !important;
+ 	cursor: pointer !important;
+ 	font-size: 24px;
+ }
+
+ .backs {
+
+ 	margin: 162px -1030px;
+
+ }
+
+ .downicon3 {
+ 	margin: 300px 510px;
+
+ }
+
+ /* about me */
+ .header p {
+ 	text-align: center;
+ 	font-size: 18px;
+ 	word-spacing: 1px;
+ 	letter-spacing: 0.1px;
+ 	text-transform: capitalize;
+ }
+
+ .sizing {
+ 	font-size: 15px;
+ 	font-weight: 100;
+ 	color: #1616b2a9;
+ 	margin: 5px 0px;
+
+ }
+
+ .about {
+ 	display: flex;
+ 	/* justify-content: space-evenly; */
+ }
+
+ p info {
+ 	font-weight: bold;
+ 	padding: 121px 0px;
+ }
+
+ datas {
+ 	width: 32px;
+ }
+
+ .ditailes img {
+ 	width: 328px;
+ 	margin: 100px 143px;
+ 	height: 389px;
+ }
+
+ .ditailes h1 {
+ 	padding: 11px 0px;
+
+ }
+
+ .putdown {
+ 	margin: 78px -80px;
+ }
+
+ .putdown p {
+ 	text-transform: capitalize;
+ 	font-size: 16px;
+ 	padding: 11px 0px;
+ }
+
+ .borders {
+ 	border-right: solid 4px #ff00d4;
+ 	border-left: solid 4px #ff21f8b1;
+ 	border-top: solid 4px #ff00eaa5;
+ 	border-bottom: solid 4px #f679ffd8;
+ 	padding: 11px;
+
+ }
+
+ .shadowing:hover img {
+ 	transform: scale(1.05);
+ 	transition: ease-in;
+ 	transition: 0.8s;
+ 	box-shadow: 2px 3px 2px rgba(181, 87, 243, 0.449);
+
+ }
+
+ editname {
+ 	/* color: #f41fd0ee; */
+ 	background: radial-gradient(67.18% 475.18% at 50% 50%, #1726ff 9.62%, #b93caddb 82.22%);
+ 	-webkit-background-clip: text !important;
+ 	-webkit-text-fill-color: transparent !important;
+ 	background-clip: text !important;
+ 	-webkit-text-fill-color: transparent !important;
+ }
+
+ padd {
+ 	line-height: 1.4;
+ }
+
+ .progressMaiWrapp {
+ 	background-color: black;
+ 	height: 15px;
+ 	position: static;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 1;
+ 	width: 100%;
+ }
+
+ .progressMainstyle {
+ 	height: 15px;
+ 	background-color: green;
+ 	width: 15%;
+
+ }
+ .ditailes button{
+	padding: 12px;
+	text-align: center;
+ }
